@@ -6,7 +6,7 @@ export default {
     const GITHUB_PAGES_URL = "https://powertech0417.github.io/op/";
 
     // 🚫 其它访问者要重定向去的地址
-    const REDIRECT_URL = "https://life4u22.blogspot.com/p/ott-channel-review.html";
+    const REDIRECT_URL = "https://my.shp.ee/2rZ8fFV";
 
     // 读取 User-Agent
     const ua = request.headers.get("User-Agent") || "";
