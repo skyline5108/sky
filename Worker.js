@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
 
     // ✅ 你的 GitHub Pages 地址（静态内容源）
-    const GITHUB_PAGES_URL = "https://powertech0417.github.io/op/";
+    const GITHUB_PAGES_URL = "https://ott.ott-9b7.workers.dev/";
 
     // 🚫 其它访问者要重定向去的地址
     const REDIRECT_URL = "https://my.shp.ee/2rZ8fFV";
@@ -13,7 +13,7 @@ export default {
 
     // ✅ 判断是否是 OTT Player（根据 UA 关键字匹配）
     // 你可以替换为你的播放器标识，例如 "OTTPlayer", "OTT TV", "OTT Navigator" 等
-    const ottKeywords = ["OTTPlayer", "OTT TV", "OTT Navigator"];
+    const ottKeywords = ["OTT Player", "OTT TV", "OTT Navigator"];
     const isOTT = ottKeywords.some(keyword => ua.includes(keyword));
 
     if (isOTT) {
