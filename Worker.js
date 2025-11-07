@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
 
     // ✅ 你的 GitHub Pages 地址（静态内容源）
-    const GITHUB_PAGES_URL = "https://ott.ott-9b7.workers.dev/";
+    const GITHUB_PAGES_URL = "https://skyline5108.github.io/playlist/";
 
     // 🚫 其它访问者要重定向去的地址
     const REDIRECT_URL = "https://my.shp.ee/2rZ8fFV";
