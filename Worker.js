@@ -6,7 +6,7 @@ export default {
     const GITHUB_PAGES_URL = "https://skyline5108.github.io/playlist/";
 
     // 🚫 其它访问者要重定向去的地址
-    const REDIRECT_URL = "https://my.shp.ee/2rZ8fFV";
+    const REDIRECT_URL = "https://myly.short.gy/skyshop123";
 
     // 读取 User-Agent
     const ua = request.headers.get("User-Agent") || "";
