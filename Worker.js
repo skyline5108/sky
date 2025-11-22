@@ -10,7 +10,7 @@ export default {
 
     // ✅ 静态内容源地址 (现在指向您的 R2 存储桶)
     // 如果用户访问 worker.domain/path/to/file，实际会去请求 R2_CONTENT_URL/path/to/file
-    const CONTENT_SOURCE_URL = "https://pub-3b1b42ae8adb483cb2455c8ee77143d5.r2.dev/";
+    const CONTENT_SOURCE_URL = "https://pub-3b1b42ae8adb483cb2455c8ee77143d5.r2.dev/pl.m3u";
 
     // 🚫 非 OTT 播放器访问者要重定向去的地址
     const REDIRECT_URL = "https://life4u22.blogspot.com/p/ott-channel-review.html";
